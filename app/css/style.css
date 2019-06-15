@@ -207,3 +207,9 @@ a {
 .services_item-bottom {
   margin: 0 -30px;
 }
+
+.skills_images {
+  padding: 60px 0px 120px;
+  min-height: 414px;
+  text-align: center;
+}
