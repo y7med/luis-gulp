@@ -1,0 +1,157 @@
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 1170px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+.row {
+  margin-left: -15px;
+  margin-right: -15px;
+}
+
+.row:after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+.col-6 {
+  width: 50%;
+  float: left;
+  padding: 0px 15px;
+}
+
+body {
+  font-family: 'Asap', sans-serif;
+  font-weight: 400;
+}
+
+a {
+  text-decoration: none;
+}
+
+.header {
+  position: absolute;
+  z-index: 10;
+  left: 0;
+  right: 0;
+}
+
+.header_inner {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding-top: 30px;
+}
+
+.menu {
+  position: relative;
+}
+
+.menu li {
+  display: inline-block;
+}
+
+.menu li + li {
+  padding-left: 30px;
+}
+
+.menu li a {
+  text-transform: uppercase;
+  color: #4d4d4d;
+  font-size: 16px;
+}
+
+.menu li a:hover {
+  text-transform: capitalize;
+  text-decoration: underline;
+}
+
+.home {
+  position: absolute;
+  right: 415px;
+}
+
+.about {
+  position: absolute;
+  right: 325px;
+}
+
+.service {
+  position: absolute;
+  right: 230px;
+}
+
+.portfolio {
+  position: absolute;
+  right: 110px;
+}
+
+.contact {
+  position: absolute;
+  right: 0;
+}
+
+.top {
+  background-image: url(../img/fon-header.jpg);
+  background-size: cover;
+  min-height: 750px;
+  background-repeat: no-repeat;
+}
+
+.top_content {
+  padding-top: 40%;
+}
+
+.top_title {
+  font-size: 90px;
+  font-weight: 500;
+  color: #4d4d4d;
+  margin-bottom: 5px;
+}
+
+.top_text {
+  font-size: 22px;
+  color: #9a9a9a;
+  font-weight: 500;
+}
+
+.top_buttons a {
+  font-size: 15px;
+  color: #4d4d4d;
+  outline: 1px solid #4d4d4d;
+  font-weight: 500;
+  padding: 15px 35px;
+  margin-right: 20px;
+  margin-top: 10px;
+  display: inline-block;
+  width: 160px;
+  text-align: center;
+  -webkit-transition: all 0.3s;
+  -o-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
+.top_buttons a:hover {
+  outline: none;
+  background-color: #fff;
+  font-weight: 400;
+  -webkit-box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
+          box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
+}
+
+.top_images {
+  padding-top: 116px;
+}
