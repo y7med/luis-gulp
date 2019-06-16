@@ -84,7 +84,7 @@ a {
   right: 415px;
 }
 
-.about {
+.about_us {
   position: absolute;
   right: 325px;
 }
@@ -176,6 +176,52 @@ a {
   top: 130px;
   right: 47%;
   z-index: 2;
+}
+
+.about {
+  min-height: 675px;
+}
+
+.about .title {
+  text-align: left;
+  padding-top: 90px;
+  max-width: 470px;
+}
+
+.about .title:before {
+  top: 80px;
+  left: 0;
+}
+
+.about_items {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding-top: 90px;
+  padding-bottom: 125px;
+}
+
+.about_text {
+  font-size: 16px;
+  line-height: 26px;
+  padding-bottom: 40px;
+  max-width: 470px;
+}
+
+.about_btn a {
+  text-transform: uppercase;
+  font-size: 16px;
+  letter-spacing: .6px;
+  color: #4d4d4d;
+  font-weight: 500;
+  border: 1px solid #4d4d4d;
+  line-height: 67px;
+  padding: 17px 50px;
 }
 
 .services {

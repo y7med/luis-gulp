@@ -65,7 +65,7 @@ a{
     position: absolute; 
     right: 415px;
 }
-.about{
+.about_us{
     position: absolute;
     right: 325px;  
 }
@@ -127,8 +127,6 @@ a{
     }  
 }
 
-
- 
 .title{
     text-align: center;
     padding-top: 140px;
@@ -149,27 +147,42 @@ a{
         z-index: 2;
     } 
 }
-
-
-// .about_text{
-//     font-size: 16px;
-//     line-height: 26px;
-//     padding: 14px 0px 40px;
-//     max-width: 470px;
-// }
-
-// .about_btn{
-//     a{
-//         text-transform: uppercase;
-//         font-size: 16px;
-//         letter-spacing: .6px;
-//         color: $text;
-//         border: 1px solid $text;
-//         line-height: 67px;
-//         padding: 17px 50px;
-
-//     }
-// }
+.about{
+    min-height: 675px; 
+    & .title{
+        text-align: left;
+        padding-top: 90px;
+        max-width: 470px;
+        &:before{
+            top: 80px;
+            left: 0;
+        } 
+    } 
+    &_items{
+        display: flex;
+        justify-content: space-between;
+        padding-top: 90px;
+        padding-bottom: 125px;
+    }
+    &_text{
+        font-size: 16px;
+        line-height: 26px;
+        padding-bottom: 40px;
+        max-width: 470px;
+    }
+    &_btn{
+        a{
+            text-transform: uppercase;
+            font-size: 16px;
+            letter-spacing: .6px;
+            color: $text;
+            font-weight: 500;
+            border: 1px solid $text;
+            line-height: 67px;
+            padding: 17px 50px;
+        }
+    }
+}
 
 .services{
     background-color: $fon;
@@ -197,7 +210,16 @@ a{
     min-height: 414px;
     text-align: center;
 }
-
+// .portfolios{
+//     background-color: $fon;
+// }
+// .portfolio_items{
+//     display: flex;
+//     justify-content: space-between;
+// }
+// .portfolio_item{
+    
+// }
 
 
 
