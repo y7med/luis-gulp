@@ -7,6 +7,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
     <link href="https://fonts.googleapis.com/css?family=Asap:400,500,500i,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/fonts.css">
     <link rel="stylesheet" href="css/libs.min.css">
     <link rel="stylesheet" href="css/style.css">
 </head>
@@ -14,7 +15,7 @@
 <body>
     <header class="header">
         <div class="container">
-            <div class="header_inner">
+            <div class="header__inner">
                 <div class="logo">
                     <a href="#">
                         <img src="img/logo.png" alt="">
@@ -23,9 +24,9 @@
                 <nav class="menu">
                     <ul>
                         <li class="home"><a href="#">Home </a></li>
-                        <li class="about_us"><a href="#">About</a></li>
+                        <li class="about__us"><a href="#">About</a></li>
                         <li class="service"><a href="#">Service</a></li>
-                        <li class="portfolio"><a href="#">Portfolio</a></li>
+                        <li class="portfolios"><a href="#">Portfolio</a></li>
                         <li class="contact"><a href="#">Contact</a></li>
                     </ul>
                 </nav>
@@ -36,44 +37,47 @@
         <div class="container">
             <div class="row">
                 <div class="col-6">
-                    <div class="top_content">
-                        <div class="top_title">
+                    <div class="top__content">
+                        <div class="top__title">
                             Luis Oenrique
                         </div>
-                        <div class="top_text">
+                        <div class="top__text">
                             User Experience / User Interface Expert
                         </div>
-                        <div class="top_buttons">
+                        <div class="top__buttons">
                             <a href="#">KNOW MORE</a>
                             <a href="#">HIRE ME</a>
                         </div>
                     </div>
                 </div>
                 <div class="col-6">
-                    <img class="top_images" src="img/boy-top.png" alt="">
+                    <img class="top__images" src="img/boy-top.png" alt="">
                 </div>
+            </div>
+            <div class="top__togo">
+                <a href="#"></a>
             </div>
         </div>
     </section>
     <section class="about">
         <div class="container">
-            <div class="about_items">
-                <div class="about_item">
+            <div class="about__items">
+                <div class="about__item">
                     <div class="title">
                         KNOW MORE
                         ABOUT ME
                     </div>
-                    <div class="about_text">
+                    <div class="about__text">
                         Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor.
                         Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus
                         mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa
                         quis enim.
                     </div>
-                    <div class="about_btn">
+                    <div class="about__btn">
                         <a href="#">DOWNLOAD MY CV</a>
                     </div>
                 </div>
-                <div class="about_item">
+                <div class="about__item">
                     <img src="img/about.png" alt="">
                 </div>
             </div>
@@ -84,48 +88,48 @@
             <div class="title">
                 sERVICES
             </div>
-            <div class="services_items">
-                <div class="services_item">
+            <div class="services__items">
+                <div class="services__item">
                     <img src="img/services_1.png" alt="">
-                    <div class="services_text">
+                    <div class="services__text">
                         User Research
                     </div>
                 </div>
-                <div class="services_item">
+                <div class="services__item">
                     <img src="img/services_2.png" alt="">
-                    <div class="services_text">
+                    <div class="services__text">
                         IA And Wireframes
                     </div>
                 </div>
-                <div class="services_item">
+                <div class="services__item">
                     <img src="img/services_3.png" alt="">
-                    <div class="services_text">
+                    <div class="services__text">
                         User Testing
                     </div>
                 </div>
             </div>
-            <div class="services_items">
-                <div class="services_item">
-                    <div class="services_item-bottom">
+            <div class="services__items">
+                <div class="services__item">
+                    <div class="services__item-bottom">
                         <img src="img/services_4.png" alt="">
-                        <div class="services_text">
+                        <div class="services__text">
                             Looks and Feel
                             Design (UI)
                         </div>
                     </div>
                 </div>
-                <div class="services_item">
-                    <div class="services_item-bottom">
+                <div class="services__item">
+                    <div class="services__item-bottom">
                         <img src="img/services_5.png" alt="">
-                        <div class="services_text">
+                        <div class="services__text">
                             Delivery
                         </div>
                     </div>
                 </div>
-                <div class="services_item">
-                    <div class="services_item-bottom">
+                <div class="services__item">
+                    <div class="services__item-bottom">
                         <img src="img/services_6.png" alt="">
-                        <div class="services_text">
+                        <div class="services__text">
                             Integration Support
                         </div>
                     </div>
@@ -138,42 +142,120 @@
             <div class="title">
                 MY SKILLS
             </div>
-            <div class="skills_images">
+            <div class="skills__images">
                 <img src="img/skills.png" alt="">
             </div>
         </div>
     </section>
-
-
-    <!-- <section class="portfolios">
+    <section class="portfolio">
         <div class="container">
             <div class="title">
-            portfolio
+                portfolio
             </div>
-            <div class="portfolio_items">
-                <div class="portfolio_item">
+            <div class="portfolio__items">
+                <div class="portfolio__item">
                     <img src="img/portfolio_1.png" alt="">
                 </div>
-                <div class="portfolio_item">
+                <div class="portfolio__item">
                     <img src="img/portfolio_2.png" alt="">
                 </div>
-                <div class="portfolio_item">
+                <div class="portfolio__item">
                     <img src="img/portfolio_3.png" alt="">
                 </div>
             </div>
-            <div class="portfolio_items">
-                <div class="portfolio_item">
+            <div class="portfolio__items">
+                <div class="portfolio__item">
                     <img src="img/portfolio_4.png" alt="">
                 </div>
-                <div class="portfolio_item">
+                <div class="portfolio__item">
                     <img src="img/portfolio_5.png" alt="">
                 </div>
-                <div class="portfolio_item">
+                <div class="portfolio__item">
                     <img src="img/portfolio_6.png" alt="">
+                    <div class="item__btn">
+                        <a href="#"></a>
+                    </div>
                 </div>
-                </div>
+            </div>
+            <div class="portfolio__btn">
+                <a href="#">
+                    LOAD MORE
+                </a>
+            </div>
         </div>
-    </section> -->
+    </section>
+    <section class="slider">
+        <div class="container">
+            <div class="title">
+                TESTIMONIALS
+            </div>
+            <div class="slider__items">
+                <div class="slider__inner">
+                    <div class="slider__item">
+                        <div class="slider__box">
+                            <img src="img/slider.png" alt="">
+                        </div>
+                        <div class="slider__box">
+                            <div class="slider__title">
+                                Limara tusi
+                            </div>
+                            <div class="slider__position">
+                                CEO, RanDOM COMPANY
+                            </div>
+                            <div class="slider__text">
+                                Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget
+                                dolor.
+                                Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur
+                                ridiculus mus. Donec quam felis, ultricies nec
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="slider__inner">
+                    <div class="slider__item">
+                        <div class="slider__box">
+                            <img src="img/slider.png" alt="">
+                        </div>
+                        <div class="slider__box">
+                            <div class="slider__title">
+                                Limara tusi
+                            </div>
+                            <div class="slider__position">
+                                CEO, RanDOM COMPANY
+                            </div>
+                            <div class="slider__text">
+                                Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget
+                                dolor.
+                                Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur
+                                ridiculus mus. Donec quam felis, ultricies nec
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="slider__inner">
+                    <div class="slider__item">
+                        <div class="slider__box">
+                            <img src="img/slider.png" alt="">
+                        </div>
+                        <div class="slider__box">
+                            <div class="slider__title">
+                                Limara tusi
+                            </div>
+                            <div class="slider__position">
+                                CEO, RanDOM COMPANY
+                            </div>
+                            <div class="slider__text">
+                                Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget
+                                dolor.
+                                Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur
+                                ridiculus mus. Donec quam felis, ultricies nec
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 
 
 
