@@ -362,6 +362,56 @@ a{
 
 
 
+.project{
+    padding-bottom: 150px;
+    &__grey{
+        background-color: $fon;
+        min-height: 300px;
+    }
+    &__item{
+        text-align: center;    
+    }
+    &__numeral{
+        font-size: 30px;
+        font-weight: 500;
+        line-height: 32px;
+        color: #444;
+        padding-top: 20px; 
+    }
+    &__text{
+        font-size: 22px;
+        line-height: 32px;
+        color: #444;
+        text-transform: uppercase;   
+    }
+    
+    
+}
+.ptoject__items{
+    display: flex;
+    justify-content: space-between;   
+}
+
+
+.desctop{
+    padding-top: 50px;
+}
+.smile,
+.paper{
+    padding-top: 72px;
+}
+.cup{
+    padding-top: 70px; 
+}
+
+
+
+
+
+
+
+
+
 
 
 
