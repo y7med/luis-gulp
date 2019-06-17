@@ -450,3 +450,55 @@ a {
 .slider .title {
   padding-bottom: 60px;
 }
+
+.project {
+  padding-bottom: 150px;
+}
+
+.project__grey {
+  background-color: #f6f6f6;
+  min-height: 300px;
+}
+
+.project__item {
+  text-align: center;
+}
+
+.project__numeral {
+  font-size: 30px;
+  font-weight: 500;
+  line-height: 32px;
+  color: #444;
+  padding-top: 20px;
+}
+
+.project__text {
+  font-size: 22px;
+  line-height: 32px;
+  color: #444;
+  text-transform: uppercase;
+}
+
+.ptoject__items {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.desctop {
+  padding-top: 50px;
+}
+
+.smile,
+.paper {
+  padding-top: 72px;
+}
+
+.cup {
+  padding-top: 70px;
+}
