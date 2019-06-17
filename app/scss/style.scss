@@ -73,7 +73,7 @@ a{
     position: absolute;
     right: 230px;
 }
-.portfolio{
+.portfolios{
     position: absolute;
     right: 110px;
 }
@@ -210,16 +210,83 @@ a{
     min-height: 414px;
     text-align: center;
 }
-// .portfolios{
-//     background-color: $fon;
-// }
-// .portfolio_items{
+
+
+
+.portfolio{
+    background-color: $fon;
+    position: relative;
+    & .title{
+        padding-bottom: 15px;
+    }
+    &_items{
+        display: flex;
+        justify-content: space-between;
+        padding-top: 30px;
+    }
+    &_item{
+        margin-left: 5px;
+        margin-right: 5px;
+        position: relative;
+        &:hover{
+         box-shadow: 0 0 15px rgba(0,0,0,0.5);
+         -webkit-transform: scale(1.2);
+         -ms-transform: scale(1.2);
+         transform: scale(1.2);
+         }  
+     }
+    &_btn{
+        text-align: center;
+        padding-bottom: 120px;
+        padding-top: 30px;
+        & a{
+            text-align: center;
+            text-transform: uppercase;
+            font-size: 16px;
+            letter-spacing: .6px;
+            color: $text;
+            font-weight: 500;
+            border: none;
+            line-height: 67px;
+            padding: 15px 46px 15px 46px;
+            background-color: #fff;
+            &:hover{
+                box-shadow: 0 0 15px rgba(0,0,0,0.5);
+            }  
+        }
+    }
+}
+.item_btn{
+    position: absolute;
+    top: 132px;
+    right: 155px; 
+    &_btn a{
+        display: inline-block;
+        height: 55px;
+        width: 55px;
+        background-color: #fff;
+    }
+}
+.item_btn a:before{
+    content: "\f105";
+    font-family: 'icomoon';
+    position: absolute;
+    font-size: 27px;
+    color: #000;
+    top: 10;
+    right: 20;
+}
+
+// .slider_items{
 //     display: flex;
 //     justify-content: space-between;
+//     border: 1px solid $slider;
 // }
-// .portfolio_item{
-    
-// }
+
+
+
+
+
 
 
 

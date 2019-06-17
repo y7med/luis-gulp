@@ -94,7 +94,7 @@ a {
   right: 230px;
 }
 
-.portfolio {
+.portfolios {
   position: absolute;
   right: 110px;
 }
@@ -258,4 +258,86 @@ a {
   padding: 60px 0px 120px;
   min-height: 414px;
   text-align: center;
+}
+
+.portfolio {
+  background-color: #f6f6f6;
+  position: relative;
+}
+
+.portfolio .title {
+  padding-bottom: 15px;
+}
+
+.portfolio_items {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding-top: 30px;
+}
+
+.portfolio_item {
+  margin-left: 5px;
+  margin-right: 5px;
+  position: relative;
+}
+
+.portfolio_item:hover {
+  -webkit-box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
+          box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
+  -webkit-transform: scale(1.2);
+  -ms-transform: scale(1.2);
+  transform: scale(1.2);
+}
+
+.portfolio_btn {
+  text-align: center;
+  padding-bottom: 120px;
+  padding-top: 30px;
+}
+
+.portfolio_btn a {
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 16px;
+  letter-spacing: .6px;
+  color: #4d4d4d;
+  font-weight: 500;
+  border: none;
+  line-height: 67px;
+  padding: 15px 46px 15px 46px;
+  background-color: #fff;
+}
+
+.portfolio_btn a:hover {
+  -webkit-box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
+          box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
+}
+
+.item_btn {
+  position: absolute;
+  top: 132px;
+  right: 155px;
+}
+
+.item_btn_btn a {
+  display: inline-block;
+  height: 55px;
+  width: 55px;
+  background-color: #fff;
+}
+
+.item_btn a:before {
+  content: "\f105";
+  font-family: 'icomoon';
+  position: absolute;
+  font-size: 27px;
+  color: #000;
+  top: 10;
+  right: 20;
 }
