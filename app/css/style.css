@@ -31,6 +31,7 @@
 body {
   font-family: 'Asap', sans-serif;
   font-weight: 400;
+  font-size: 16px;
 }
 
 a {
@@ -71,7 +72,6 @@ a {
 .menu li a {
   text-transform: uppercase;
   color: #4d4d4d;
-  font-size: 16px;
 }
 
 .menu li a:hover {
@@ -239,7 +239,6 @@ a {
 }
 
 .about__text {
-  font-size: 16px;
   line-height: 26px;
   padding-bottom: 40px;
   max-width: 470px;
@@ -247,7 +246,6 @@ a {
 
 .about__btn a {
   text-transform: uppercase;
-  font-size: 16px;
   letter-spacing: .6px;
   color: #4d4d4d;
   font-weight: 500;
@@ -336,7 +334,6 @@ a {
 .portfolio__btn a {
   text-align: center;
   text-transform: uppercase;
-  font-size: 16px;
   letter-spacing: .6px;
   color: #4d4d4d;
   font-weight: 500;
@@ -415,7 +412,6 @@ a {
 }
 
 .slider__text {
-  font-size: 16px;
   color: #9a9a9a;
   text-transform: uppercase;
   line-height: 26px;
@@ -501,4 +497,181 @@ a {
 
 .cup {
   padding-top: 70px;
+}
+
+.footer {
+  background-image: url(../img/footer.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 787px;
+  position: relative;
+}
+
+.footer .title {
+  color: #fff;
+  padding-bottom: 70px;
+}
+
+.footer .title:before {
+  background-color: #fff;
+}
+
+.form__box {
+  text-align: center;
+  width: 100%;
+  margin: 0 auto;
+  max-width: 770px;
+}
+
+.form__box-inner {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  max-width: 770px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.form__box-inner input {
+  height: 60px;
+  width: 100%;
+  outline: none;
+  margin: 0px 15px 28px 15px;
+  padding-left: 12px;
+  padding-right: 12px;
+  font-size: 16px;
+  color: #4d4d4d;
+}
+
+textarea {
+  height: 207px;
+  width: 100%;
+  outline: none;
+  margin: 0px 15px 28px 15px;
+  padding: 25px 12px;
+  resize: none;
+  font-size: 16px;
+  color: #4d4d4d;
+  max-width: 740px;
+}
+
+.form__box-btn button {
+  padding: 17px 28px 13px 34px;
+  letter-spacing: 0.6px;
+  color: #4d4d4d;
+  font-weight: 500;
+  margin-bottom: 60px;
+  cursor: pointer;
+}
+
+.footer__copy {
+  min-height: 85px;
+  border-top: 1px solid #fff;
+  position: relative;
+}
+
+.footer__copy-text {
+  color: #fff;
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+  letter-spacing: 0.6px;
+  font-weight: 500;
+  padding-top: 30px;
+  text-align: center;
+  position: relative;
+}
+
+.footer__sosial {
+  position: absolute;
+  top: 25px;
+}
+
+.footer__sosial a {
+  position: relative;
+}
+
+.footer__sosial li {
+  height: 28px;
+  width: 28px;
+  background-color: #fff;
+  padding-left: 8px;
+  padding-right: 8px;
+  display: inline-block;
+}
+
+.footer__sosial li:hover {
+  background-color: #0084b4;
+}
+
+.footer__sosial a:after {
+  content: "\f09a";
+  color: #4d4d4d;
+  font-family: 'icomoon';
+  margin: 0 3px;
+  line-height: 28px;
+  font-size: 15px;
+}
+
+.footer__sosial .twitter:after {
+  content: "\f099";
+  margin: 0;
+}
+
+.footer__sosial .linkedin:after {
+  content: "\f0e1";
+  margin: 0 1px;
+}
+
+.footer__sosial .google:after {
+  content: "\f0d5";
+  margin: 0 -3px;
+}
+
+.footer__sosial .behance:after {
+  content: "\f1b4";
+  margin: 0 -1px;
+}
+
+.footer__sosial .dribbble:after {
+  content: "\f17d";
+  margin: 0;
+}
+
+li:hover a:after {
+  color: #fff;
+}
+
+.go__to-home {
+  position: absolute;
+  bottom: 25%;
+  right: 27px;
+}
+
+.go__to-home a {
+  display: inline-block;
+  height: 45px;
+  width: 45px;
+  background-color: #fff;
+  bottom: 25%;
+  right: 27px;
+}
+
+.go__to-home a:hover {
+  -webkit-box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
+          box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
+}
+
+.go__to-home a:before {
+  content: "\f106";
+  font-family: 'icomoon';
+  position: absolute;
+  font-size: 24px;
+  color: #4d4d4d;
+  top: 7px;
+  right: 14px;
 }
