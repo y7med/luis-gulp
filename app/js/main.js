@@ -1,4 +1,9 @@
 $(function(){
+
+    $('.btn__menu').on('click', function(){
+        $('.menu ul').slideToggle();
+    });
+
     $('.slider__items').slick({
         dots: true,
         arrows: false
