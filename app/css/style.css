@@ -156,10 +156,15 @@ a {
   padding-top: 116px;
 }
 
+.top img {
+  max-width: 100%;
+  width: 100%;
+}
+
 .top__togo {
   position: absolute;
   left: 100px;
-  bottom: 88px;
+  bottom: 20%;
 }
 
 .top__togo a {
@@ -254,6 +259,11 @@ a {
   padding: 17px 50px;
 }
 
+.about__item img {
+  max-width: 100%;
+  width: 100%;
+}
+
 .services {
   background-color: #f6f6f6;
   min-height: 690px;
@@ -290,6 +300,11 @@ a {
   text-align: center;
 }
 
+.skills__images img {
+  max-width: 100%;
+  width: 100%;
+}
+
 .portfolio {
   background-color: #f6f6f6;
   position: relative;
@@ -315,6 +330,11 @@ a {
   margin-left: 5px;
   margin-right: 5px;
   position: relative;
+}
+
+.portfolio__item img {
+  max-width: 100%;
+  width: 100%;
 }
 
 .portfolio__item:hover {
@@ -518,9 +538,7 @@ a {
 
 .form__box {
   text-align: center;
-  width: 100%;
-  margin: 0 auto;
-  max-width: 770px;
+  padding: 0 15px 0 15px;
 }
 
 .form__box-inner {
@@ -546,6 +564,7 @@ a {
   padding-right: 12px;
   font-size: 16px;
   color: #4d4d4d;
+  max-width: 365px;
 }
 
 textarea {
@@ -558,6 +577,7 @@ textarea {
   font-size: 16px;
   color: #4d4d4d;
   max-width: 740px;
+  width: 100%;
 }
 
 .form__box-btn button {
@@ -674,4 +694,10 @@ li:hover a:after {
   color: #4d4d4d;
   top: 7px;
   right: 14px;
+}
+
+.btn__menu {
+  display: none;
+  font-size: 20px;
+  color: #4d4d4d;
 }

@@ -125,11 +125,15 @@ a{
     &__images{
         padding-top: 116px;   
     }  
+    & img{
+        max-width: 100%;
+        width: 100%;
+    }
 }
-.top__togo {
+.top__togo{
     position: absolute;
     left: 100px;
-    bottom: 88px;
+    bottom: 20%;
     & a{
         display: inline-block;
         width: 45px;
@@ -206,6 +210,10 @@ a{
         }
     }
 }
+.about__item img{
+    max-width: 100%;
+    width: 100%;
+}
 
 .services{
     background-color: $fon;
@@ -233,6 +241,10 @@ a{
     min-height: 414px;
     text-align: center;
 }
+.skills__images img{
+    max-width: 100%;
+    width: 100%;
+}
 
 .portfolio{
     background-color: $fon;
@@ -249,6 +261,10 @@ a{
         margin-left: 5px;
         margin-right: 5px;
         position: relative;
+        & img{
+            max-width: 100%;
+            width: 100%;
+        }
         &:hover{
          box-shadow: 0 0 15px rgba(0,0,0,0.5);
          -webkit-transform: scale(1.2);
@@ -412,15 +428,13 @@ a{
 }
 .form__box{
     text-align: center;
-    width: 100%;
-    margin: 0 auto;
-    max-width: 770px;
+    padding: 0 15px 0 15px;
     &-inner{
         display: flex;
-         justify-content: space-between;
-         max-width: 770px;
+        justify-content: space-between;
+        max-width: 770px;
         width: 100%;
-        margin: 0 auto; 
+        margin: 0 auto;
         & input{
             height: 60px;
             width: 100%;
@@ -430,9 +444,12 @@ a{
             padding-right: 12px;
             font-size: 16px;
             color: $text;
+            max-width: 365px;
         } 
     }
 }
+
+
 textarea{
     height: 207px;
     width: 100%;
@@ -443,6 +460,7 @@ textarea{
     font-size: 16px;
     color: $text;
     max-width: 740px;
+    width: 100%;
 }
 .form__box-btn button{
     padding: 17px 28px 13px 34px;
@@ -543,6 +561,12 @@ li:hover a:after{
             right: 14px;
         } 
     }   
+}
+
+.btn__menu{
+    display: none;
+    font-size: 20px;
+    color: $text;
 }
 
 
